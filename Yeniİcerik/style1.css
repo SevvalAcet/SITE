@@ -1,0 +1,110 @@
+html{
+  font-family:sans-serif;
+  -ms-text-size-adjust:100%;
+  -webkit-text-size-adjust:100%;
+}
+body{
+  margin:0;
+  overflow-wrap:break-word;
+  word-break:break-word;
+  word-wrap:break-word;
+  background-color:#58c6d5;
+  color:#757575;
+  font:15px Roboto, sans-serif;
+  margin:0;
+  min-height:100vh
+  }
+  img{
+  max-width:100%
+  }
+ h3{
+ color:#757575;
+ font-size:16px
+  }
+.bg-photo-container{
+height:480px;
+overflow:hidden;
+position:absolute;
+ width:100%;
+ z-index:1
+ }
+.bg-photo{
+background:#58c6d5 url(https://themes.googleusercontent.com/image?id=iOjEWmpWlNVmx91RAaWC3irZSyq8cu05pASFz84khXxbIM83x8QP6Hnw7ZIDcZFvcAGSBpGCNsBC) no-repeat scroll top center;;
+background-attachment:scroll;
+ background-size:cover;
+-webkit-filter:blur(0px);
+filter:blur(0px);
+height:calc(100% + 2 * 0px);
+ left:0px;
+position:absolute;
+top:0px;
+width:calc(100% + 2 * 0px)
+ }
+.bg-photo-overlay{
+ background:rgba(0,0,0,.26);
+  background-size:cover;
+  height:480px;
+  position:absolute;
+  width:100%;
+  z-index:2
+  }
+  .hamburger-menu{
+  float:left;
+  margin-top:0
+  }body.collapsed-header .centered-top-container .widget.Header h1{
+   text-align:center
+   }
+  .widget.Header header{
+  padding:0
+  }
+.widget.Header h1{
+font-size:33.067px;
+  line-height:33.067px;
+ margin-bottom:13px
+   }
+body.item-view .widget.Header h1{
+  text-align:center
+   }
+ @media screen and (min-width:1440px){
+.profile-snippet .snippet-fade{
+background:-webkit-linear-gradient(left,#f3fdfe 0,#f3fdfe 20%,rgba(243, 253, 254, 0) 100%);
+background:linear-gradient(to left,#f3fdfe 0,#f3fdfe 20%,rgba(243, 253, 254, 0) 100%)
+}
+}
+@media screen and (max-width:800px){
+.blog-name{
+margin-top:0
+}
+body.item-view .blog-name{
+margin:0 48px
+}
+.centered-bottom{
+padding:8px
+}
+body.item-view .centered-bottom{
+padding:0
+}
+.page_body .centered{
+padding:10px 0
+}
+body.item-view #header,body.item-view .widget.Header{
+margin-right:0
+}
+body.collapsed-header .centered-top-container .blog-name{
+display:block
+}
+body.collapsed-header .centered-top-container .widget.Header h1{
+text-align:center
+}
+.widget.Header header{
+padding:0
+}
+.widget.Header h1{
+font-size:33.067px;
+line-height:33.067px;
+margin-bottom:13px
+}
+body.item-view .widget.Header h1{
+text-align:center
+}
+}
