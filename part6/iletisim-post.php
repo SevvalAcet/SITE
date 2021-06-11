@@ -41,8 +41,8 @@ if ( $_POST )
       $mail->isSMTP();                                            //Send using SMTP
       $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
       $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-      $mail->Username   = 'sevvalacet757@gmail.com';                     //SMTP username
-      $mail->Password   = 'Berkem1134';                               //SMTP password
+      $mail->Username   = 'xxx@gmail.com';                     //SMTP username
+      $mail->Password   = '*******';                               //SMTP password
       $mail->SMTPSecure =  PHPMailer::ENCRYPTION_STARTTLS;
       $mail->Port       = 587;
 
@@ -55,7 +55,7 @@ if ( $_POST )
         );
 
       //Recipients
-      $mail->setFrom('sevvalacet757@gmail.com', 'Sevval1');
+      $mail->setFrom('xxx@gmail.com', 'Sevval1');
       $mail->addAddress('sevvalacet1134@gmail.com', 'Sevval2');
       $mail->charset="UTF-8";
       $mail->setLanguage('tr');
